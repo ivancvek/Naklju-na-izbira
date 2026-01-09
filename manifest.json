@@ -1,24 +1,16 @@
 
 {
-  "short_name": "Naključna",
-  "name": "Naključna Izbira: Generator Odločitev",
+  "short_name": "Izbira",
+  "name": "Kaj naj izberem?",
+  "start_url": "./",
+  "display": "standalone",
+  "theme_color": "#f97316",
+  "background_color": "#FDFCFB",
   "icons": [
     {
       "src": "https://cdn-icons-png.flaticon.com/512/3566/3566345.png",
-      "type": "image/png",
       "sizes": "512x512",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "https://cdn-icons-png.flaticon.com/512/3566/3566345.png",
-      "type": "image/png",
-      "sizes": "192x192"
+      "type": "image/png"
     }
-  ],
-  "start_url": "/",
-  "scope": "/",
-  "display": "standalone",
-  "orientation": "portrait",
-  "theme_color": "#f97316",
-  "background_color": "#fff7ed"
+  ]
 }

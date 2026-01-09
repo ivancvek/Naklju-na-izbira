@@ -1,16 +1,15 @@
 
-const CACHE_NAME = 'nakljucna-izbira-v1';
+const CACHE_NAME = 'odlocevalec-v3';
 const ASSETS = [
-  '/',
-  '/index.html',
-  '/manifest.json'
+  './',
+  './index.html',
+  'https://cdn.tailwindcss.com',
+  'https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;900&display=swap'
 ];
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
-    caches.open(CACHE_NAME).then((cache) => {
-      return cache.addAll(ASSETS);
-    })
+    caches.open(CACHE_NAME).then((cache) => cache.addAll(ASSETS))
   );
 });
 

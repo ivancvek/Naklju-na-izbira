@@ -1,5 +1,5 @@
 {
-  "name": "Naključna Izbira",
-  "description": "Generator naključnih odločitev za hrano in zabavo v čudoviti oranžni preobleki.",
+  "name": "Kaj naj izberem?",
+  "description": "AI generator za hitre odločitve o hrani in zabavi.",
   "requestFramePermissions": []
 }
